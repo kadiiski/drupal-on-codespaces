@@ -9,5 +9,4 @@ chmod 777 -R .
 echo '$settings["reverse_proxy"] = TRUE;' >> web/sites/default/settings.php
 echo '$settings["reverse_proxy_addresses"] = ["127.0.0.1"];' >> web/sites/default/settings.php
 echo 'export PATH="./vendor/bin:$PATH"' >> ~/.bashrc
-vendor/bin/drush serve
 export PATH="./vendor/bin:$PATH"
