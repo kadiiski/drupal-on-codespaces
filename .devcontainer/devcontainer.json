@@ -1,4 +1,5 @@
 {
+    "postCreateCommand": "./setup.sh",
     "build": {
         "dockerfile": "Dockerfile"
     },
