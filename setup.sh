@@ -1,4 +1,4 @@
-composer create-project drupal/recommended-project drupal_site
+composer create-project drupal/recommended-project:^10 drupal_site
 cd drupal_site
 composer require drush/drush
 vendor/bin/drush si --db-url=sqlite://drupal:drupal@127.0.0.1:3306/drupal --yes
